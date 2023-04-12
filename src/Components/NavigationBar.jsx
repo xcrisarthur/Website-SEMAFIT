@@ -14,68 +14,62 @@ const NavigationBar = ({ navNalue }) => {
         <div className="mx-auto max-w-screen-xl p-4 ">
           <div className="flex items-center justify-between gap-4 lg:gap-10">
             <div className="flex lg:w-0 lg:flex-1">
-              <h1 className="text-2xl font-medium">S E M A F I T</h1>
+            <button
+                className="inline-block w-10 lg:hidden"
+                onClick={() => navigate("/")}
+              >
+                <img srcSet={Logo} alt="*Disini logo" />
+              </button>
+              <h1 className="text-2xl font-medium ps-5"> S E M A F I T</h1>
             </div>
 
             <div
               aria-label="Site Nav"
-              className="hidden gap-8 text-sm font-medium md:flex"
+              className="hidden gap-8 text-sm font-medium lg:flex"
             >
-              <a className="text-gray-500 my-auto">Aspiration Form</a>
-
-              <a
-                className="text-gray-500 my-auto"
-                onClick={() => navigate("/about")}
-              >
+              <button className="my-auto hover:text-gray-600">
+              Aspiration Form 
+              </button>
+              <button className="my-auto hover:text-gray-600" onClick={() => navigate("/about")} >
                 Profile
-              </a>
-              <a
-                className="text-gray-500 my-auto"
-                onClick={() => navigate("/")}
-              >
+              </button>
+              <button className="my-auto hover:text-gray-600" onClick={() => navigate("/")} >
                 Home
-              </a>
-              <a
+              </button>
+              <button
                 className="inline-block w-12"
                 id="logo"
                 onClick={() => navigate("/")}
               >
                 <img srcSet={Logo} alt="*Disini logo" />
-              </a>
-              <a className="text-gray-500 my-auto">Events</a>
-              <a className="text-gray-500 my-auto">Merchandise</a>
-              <a className="text-gray-500 my-auto">Article</a>
+              </button>
+              <button className="my-auto hover:text-gray-600">Events</button>
+              <button className="my-auto hover:text-gray-600">Merchandise</button>
+              <button className="my-auto hover:text-gray-600">Article</button>
             </div>
 
-            <div className="hidden flex-1 items-center justify-end gap-4 sm:flex">
-              <a className="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white">
+            <div className="flex-1 items-center justify-end gap-4 flex">
+              <button className="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white">
                 Contact Us
-              </a>
-            </div>
-
-            <div className="lg:hidden">
-              <button
-                className="rounded-lg bg-gray-100 p-2 text-gray-600"
-                type="button"
-              >
-                <span className="sr-only">Open menu</span>
-                <svg
-                  aria-hidden="true"
-                  className="h-5 w-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M4 6h16M4 12h16M4 18h16"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  />
-                </svg>
               </button>
             </div>
+          </div>
+          
+          <div className="border-t border-gray-100 lg:hidden">
+            <nav className="flex items-center justify-center overflow-x-auto p-4 text-sm font-medium">
+              <button className="my-auto hover:text-gray-600 flex-shrink-0 pl-4 text-gray-900 max-[430px]:ms-20 max-[320px]:ms-44">
+              Aspiration Form 
+              </button>
+              <button className="my-auto hover:text-gray-600 flex-shrink-0 pl-4" onClick={() => navigate("/about")} >
+                Profile
+              </button>
+              <button className="my-auto hover:text-gray-600 flex-shrink-0 pl-4" onClick={() => navigate("/")} >
+                Home
+              </button>
+              <button className="my-auto hover:text-gray-600 flex-shrink-0 pl-4">Events</button>
+              <button className="my-auto hover:text-gray-600 flex-shrink-0 pl-4">Merchandise</button>
+              <button className="my-auto hover:text-gray-600 flex-shrink-0 pl-4">Article</button>
+            </nav>
           </div>
         </div>
       </header>
