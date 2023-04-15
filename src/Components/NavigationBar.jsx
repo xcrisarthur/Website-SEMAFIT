@@ -9,7 +9,7 @@ const NavigationBar = ({ navNalue }) => {
       <header
         aria-label="Site Header"
         id="navbar"
-        className="shadow-sm sticky top-0 z-50 "
+        className="shadow-sm sticky top-0 z-50 bg-white "
       >
         <div className="mx-auto max-w-screen-xl p-4 ">
           <div className="flex items-center justify-between gap-4 lg:gap-10">
@@ -27,7 +27,7 @@ const NavigationBar = ({ navNalue }) => {
               aria-label="Site Nav"
               className="hidden gap-8 text-sm font-medium lg:flex"
             >
-              <button className="my-auto hover:text-gray-600">
+              <button className="my-auto hover:text-gray-600" onClick={() => navigate("/aspirform")}>
               Aspiration Form 
               </button>
               <button className="my-auto hover:text-gray-600" onClick={() => navigate("/about")} >
@@ -37,19 +37,19 @@ const NavigationBar = ({ navNalue }) => {
                 Home
               </button>
               <button
-                className="inline-block w-12"
+                className="inline-block sm:w-14"
                 id="logo"
                 onClick={() => navigate("/")}
               >
                 <img srcSet={Logo} alt="*Disini logo" />
               </button>
-              <button className="my-auto hover:text-gray-600">Events</button>
-              <button className="my-auto hover:text-gray-600">Merchandise</button>
-              <button className="my-auto hover:text-gray-600">Article</button>
+              <button className="my-auto hover:text-gray-600" onClick={() => navigate("/events")}>Events</button>
+              <button className="my-auto hover:text-gray-600" onClick={() => navigate("/merchandise")}>Merchandise</button>
+              <button className="my-auto hover:text-gray-600" onClick={() => navigate("/article")}>Article</button>
             </div>
 
             <div className="flex-1 items-center justify-end gap-4 flex">
-              <button className="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white">
+              <button className="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white" onClick={() => navigate("/contactus")}>
                 Contact Us
               </button>
             </div>

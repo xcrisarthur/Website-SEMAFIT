@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import NavigationBar from "../Components/NavigationBar";
 
 const Events = () => {
@@ -5,6 +6,8 @@ const Events = () => {
     <>
       <NavigationBar />
       <h1>Events</h1>
+
+      <Footer/>
     </>
   );
 };

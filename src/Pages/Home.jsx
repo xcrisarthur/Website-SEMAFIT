@@ -12,6 +12,7 @@ import Home1 from "../Components/Home1";
 import Foto1 from "../Image/diskusi.jpg";
 import Foto2 from "../Image/Apaini.jpg";
 import Foto3 from "../Image/Stuban1.jpg";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   const swiperRef = useRef();
@@ -558,6 +559,8 @@ const Home = () => {
           </button>
         </div>
       </section>
+
+      <Footer/>
     </>
   );
 };

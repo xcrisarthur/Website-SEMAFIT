@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.45ac27c5.css",
-    "main.js": "/static/js/main.6fac2f30.js",
+    "main.css": "/static/css/main.0011854f.css",
+    "main.js": "/static/js/main.dc4787a3.js",
     "static/js/787.17b902bb.chunk.js": "/static/js/787.17b902bb.chunk.js",
     "static/media/Stuban1.jpg": "/static/media/Stuban1.3c7bf17a1f09b556b5a9.jpg",
     "static/media/Apaini.jpg": "/static/media/Apaini.86f2c1f4912c24820677.jpg",
     "static/media/diskusi.jpg": "/static/media/diskusi.02b75af803eb3d371f67.jpg",
     "static/media/LogoSema.png": "/static/media/LogoSema.a518f0ce751508c6795e.png",
+    "static/media/Semafit.png": "/static/media/Semafit.dc7a491f38911d6d2048.png",
     "index.html": "/index.html",
-    "main.45ac27c5.css.map": "/static/css/main.45ac27c5.css.map",
-    "main.6fac2f30.js.map": "/static/js/main.6fac2f30.js.map",
+    "main.0011854f.css.map": "/static/css/main.0011854f.css.map",
+    "main.dc4787a3.js.map": "/static/js/main.dc4787a3.js.map",
     "787.17b902bb.chunk.js.map": "/static/js/787.17b902bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45ac27c5.css",
-    "static/js/main.6fac2f30.js"
+    "static/css/main.0011854f.css",
+    "static/js/main.dc4787a3.js"
   ]
 }

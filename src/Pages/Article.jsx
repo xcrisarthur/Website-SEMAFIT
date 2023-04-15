@@ -1,14 +1,15 @@
 import Footer from "../Components/Footer";
 import NavigationBar from "../Components/NavigationBar";
 
-const Merchandise = () => {
+const Article = () => {
   return (
     <>
       <NavigationBar />
-      <h1>Merchandise</h1>
+      <h1>Article</h1>
+
       <Footer/>
     </>
   );
 };
 
-export default Merchandise;
+export default Article;
