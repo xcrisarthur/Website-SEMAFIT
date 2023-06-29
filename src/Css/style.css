@@ -6,22 +6,23 @@
   body { font-family: sans-serif; } */
   
   .gallery {
-    background: #EEE;
+    background: #000000;
   }
   
   .gallery-cell {
-    width: 60%;
-    height: 300px;
-    margin-right: 10px;
-    background: #8C8;
+    width: 80%;
+    height: 400px;
+    margin-right: 15px;
+    /* background: #8C8; */
+    /* border: 5px solid red; */
     counter-increment: gallery-cell;
   }
   
-  .gallery-cell:before {
+  /* .gallery-cell:before {
     display: block;
     text-align: center;
     content: counter(gallery-cell);
     line-height: 200px;
     font-size: 80px;
     color: white;
-  }
+  } */
