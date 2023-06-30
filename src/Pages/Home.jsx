@@ -414,6 +414,7 @@ const Home = () => {
 
           <ul className="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
             <li>
+              {/* eslint-disable jsx-a11y/anchor-is-valid */}
               <a href="#" className="relative block group">
                 <img
                   src={Foto1}

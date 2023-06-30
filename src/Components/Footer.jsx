@@ -78,7 +78,7 @@ const Footer = () => {
             <div className="gap-6 justify-between md:flex">
                 <div className="flex-1">
                     <div className="max-w-xs">
-                        <img src={Logo} className="w-50" />
+                        <img src={Logo} className="w-50" alt="Logo" />
                         <p className="leading-relaxed mt-2 text-[15px]">
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                         </p>

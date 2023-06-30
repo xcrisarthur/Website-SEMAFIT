@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.0011854f.css",
-    "main.js": "/static/js/main.dc4787a3.js",
+    "main.css": "/static/css/main.129b6a70.css",
+    "main.js": "/static/js/main.ac366b2e.js",
     "static/js/787.17b902bb.chunk.js": "/static/js/787.17b902bb.chunk.js",
     "static/media/Stuban1.jpg": "/static/media/Stuban1.3c7bf17a1f09b556b5a9.jpg",
     "static/media/Apaini.jpg": "/static/media/Apaini.86f2c1f4912c24820677.jpg",
     "static/media/diskusi.jpg": "/static/media/diskusi.02b75af803eb3d371f67.jpg",
+    "static/media/poster3.jpg": "/static/media/poster3.2ab89f723d30ae964e69.jpg",
+    "static/media/Poster1.jpg": "/static/media/Poster1.7a93b5acb6f6ee1555c9.jpg",
+    "static/media/poster2.jpg": "/static/media/poster2.46b5d013940417a6238d.jpg",
     "static/media/LogoSema.png": "/static/media/LogoSema.a518f0ce751508c6795e.png",
     "static/media/Semafit.png": "/static/media/Semafit.dc7a491f38911d6d2048.png",
     "index.html": "/index.html",
-    "main.0011854f.css.map": "/static/css/main.0011854f.css.map",
-    "main.dc4787a3.js.map": "/static/js/main.dc4787a3.js.map",
+    "main.129b6a70.css.map": "/static/css/main.129b6a70.css.map",
+    "main.ac366b2e.js.map": "/static/js/main.ac366b2e.js.map",
     "787.17b902bb.chunk.js.map": "/static/js/787.17b902bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0011854f.css",
-    "static/js/main.dc4787a3.js"
+    "static/css/main.129b6a70.css",
+    "static/js/main.ac366b2e.js"
   ]
 }

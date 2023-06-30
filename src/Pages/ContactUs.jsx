@@ -99,7 +99,7 @@ const Contact = () => {
         <div class="mx-auto grid max-w-screen-2xl grid-cols-1 md:grid-cols-2 ">
           <div class="bg-gray-50 border-r-4">
 
-          <iframe className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d441.11012184668033!2d107.58097030174395!3d-6.886467404489373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6873bb80d89%3A0xac80cbb5325a54e4!2sGraha%20Widya%20Maranatha!5e0!3m2!1sen!2sid!4v1681526535328!5m2!1sen!2sid" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe title="Maps" className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d441.11012184668033!2d107.58097030174395!3d-6.886467404489373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6873bb80d89%3A0xac80cbb5325a54e4!2sGraha%20Widya%20Maranatha!5e0!3m2!1sen!2sid!4v1681526535328!5m2!1sen!2sid" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
           </div>
 

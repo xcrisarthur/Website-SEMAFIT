@@ -8,13 +8,7 @@ import "../Css/style.css";
 import p1 from "../Image/Poster1.jpg";
 import p2 from "../Image/poster2.jpg";
 import p3 from "../Image/poster3.jpg";
-import TokoSe from "../Image/TokoSemafit.png";
-import "../../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"
-import {
-  Collapse,
-  Ripple,
-  initTE,
-} from "tw-elements";
+import "../../node_modules/tw-elements/dist/js/tw-elements.umd.min.js";
 
 const Merchandise = () => {
   const carouselRef = useRef(null);
@@ -40,17 +34,14 @@ const Merchandise = () => {
 
       <div className="gallery js-flickity" ref={carouselRef}>
         <div className="gallery-cell">
-          <img src={p1} alt="" srcset="" className="w-full h-full" />
+          <img srcSet={p1} alt="" className="w-full h-full" />
         </div>
         <div className="gallery-cell">
-          <img src={p2} alt="" srcset="" className="w-full h-full" />
+          <img srcSet={p2} alt="" className="w-full h-full" />
         </div>
         <div className="gallery-cell">
-          <img src={p3} alt="" srcset="" className="w-full h-full" />
+          <img srcSet={p3} alt="" className="w-full h-full" />
         </div>
-
-        {/* <div className="gallery-cell"></div> */}
-        {/* <div className="gallery-cell"></div> */}
       </div>
 
       <div className="mt-16 mb-10 mx-auto text-center w-96">
@@ -104,18 +95,15 @@ const Merchandise = () => {
 
           <ul className="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-4 ">
             <li>
-              <a className="block overflow-hidden group">
+              {/* eslint-disable jsx-a11y/anchor-is-valid */}
+              <a href="#" className="block overflow-hidden group">
                 <img
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124012611273506916/Snapinsta.app_339676838_702310228250744_5671931551316459820_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124012611273506916/Snapinsta.app_339676838_702310228250744_5671931551316459820_n_1024.jpg"
                   alt=""
                   className="h-[350px] w-auto object-cover transition duration-500 group-hover:scale-105 sm:h-[450px] mx-auto"
                 />
 
                 <div className="relative pt-3 bg-white">
-                  {/* <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    Basic Tee
-                  </h3> */}
-
                   <p className="mt-2 text-2xl">
                     <span className="sr-only"> Regular Price </span>
 
@@ -131,16 +119,12 @@ const Merchandise = () => {
             <li>
               <a className="block overflow-hidden group">
                 <img
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124012610950529045/Snapinsta.app_339665792_212356301414562_5563539063557496738_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124012610950529045/Snapinsta.app_339665792_212356301414562_5563539063557496738_n_1024.jpg"
                   alt=""
                   className="h-[350px] w-auto object-cover transition duration-500 group-hover:scale-105 sm:h-[450px] mx-auto"
                 />
 
                 <div className="relative pt-3 bg-white">
-                  {/* <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    Basic Tee
-                  </h3> */}
-
                   <p className="mt-2 text-2xl">
                     <span className="sr-only"> Regular Price </span>
 
@@ -159,8 +143,6 @@ const Merchandise = () => {
       <section>
         <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
           <header className="text-center">
-            {/* <p className="max-w-md mx-auto mt-4 text-gray-500">Bundle</p> */}
-
             <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
               NOLI & NOBO
             </h2>
@@ -170,16 +152,12 @@ const Merchandise = () => {
             <li>
               <a className="block overflow-hidden group">
                 <img
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124016078700433579/Snapinsta.app_339995645_4218500991708528_499988992288132034_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124016078700433579/Snapinsta.app_339995645_4218500991708528_499988992288132034_n_1024.jpg"
                   alt=""
                   className="h-[350px] w-auto object-cover transition duration-500 group-hover:scale-105 sm:h-[450px] mx-auto"
                 />
 
                 <div className="relative pt-3 bg-white">
-                  {/* <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    Basic Tee
-                  </h3> */}
-
                   <p className="mt-2 text-2xl">
                     <span className="sr-only"> Regular Price </span>
 
@@ -195,16 +173,12 @@ const Merchandise = () => {
             <li>
               <a className="block overflow-hidden group">
                 <img
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124016078939492424/Snapinsta.app_339668173_190516797101727_8692166284739220016_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124016078939492424/Snapinsta.app_339668173_190516797101727_8692166284739220016_n_1024.jpg"
                   alt=""
                   className="h-[350px] w-auto object-cover transition duration-500 group-hover:scale-105 sm:h-[450px] mx-auto"
                 />
 
                 <div className="relative pt-3 bg-white">
-                  {/* <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    Basic Tee
-                  </h3> */}
-
                   <p className="mt-2 text-2xl">
                     <span className="sr-only"> Regular Price </span>
 
@@ -252,19 +226,13 @@ const Merchandise = () => {
             <h2 className="text-xl font-bold text-gray-900 sm:text-3xl text-center">
               Product Catalog
             </h2>
-
-            {/* <p className="max-w-md mt-4 text-gray-500">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
-        praesentium cumque iure dicta incidunt est ipsam, officia dolor fugit
-        natus?
-      </p> */}
           </header>
 
           <ul className="grid gap-4 mt-8 sm:grid-cols-1 lg:grid-cols-3">
             <li className="flex flex-col items-center">
               <a href="#" className="block overflow-hidden group">
                 <img
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124018359856537621/Snapinsta.app_340161769_245411251269892_4144012272337964815_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124018359856537621/Snapinsta.app_340161769_245411251269892_4144012272337964815_n_1024.jpg"
                   alt=""
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
@@ -283,130 +251,52 @@ const Merchandise = () => {
                     </span>
                   </p>
                 </div> */}
-
               </a>
 
               <a
-    className="my-5 inline-block rounded bg-indigo-600 px-8 py-3 text-sm font-medium text-white transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500"
-    href="/download"
-  >
-    Check Catalog
-  </a>
-
-
+                className="my-5 inline-block rounded bg-indigo-600 px-8 py-3 text-sm font-medium text-white transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500"
+                href="/download"
+              >
+                Check Catalog
+              </a>
             </li>
 
             <li className="flex flex-col items-center">
               <a href="#" className="block overflow-hidden group">
                 <img
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124025888250527774/Snapinsta.app_339702244_956481542034564_7910274465963337747_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124025888250527774/Snapinsta.app_339702244_956481542034564_7910274465963337747_n_1024.jpg"
                   alt=""
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
-
-                {/* <div className="relative pt-3 bg-white">
-                  <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    Basic Tee
-                  </h3>
-
-                  <p className="mt-2">
-                    <span className="sr-only"> Regular Price </span>
-
-                    <span className="tracking-wider text-gray-900">
-                      {" "}
-                      £24.00 GBP{" "}
-                    </span>
-                  </p>
-                </div> */}
               </a>
 
               <a
-    className="my-5 inline-block rounded bg-indigo-600 px-8 py-3 text-sm font-medium text-white transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500"
-    href="/download"
-  >
-    Check Catalog
-  </a>
+                className="my-5 inline-block rounded bg-indigo-600 px-8 py-3 text-sm font-medium text-white transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500"
+                href="/download"
+              >
+                Check Catalog
+              </a>
             </li>
 
             <li className="flex flex-col items-center">
               <a href="#" className="block overflow-hidden group">
                 <img
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124026137673220278/Snapinsta.app_339807749_168030642817173_6129546957616000384_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124026137673220278/Snapinsta.app_339807749_168030642817173_6129546957616000384_n_1024.jpg"
                   alt=""
                   className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
-
-                {/* <div className="relative pt-3 bg-white">
-                  <h3 className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                    Basic Tee
-                  </h3>
-
-                  <p className="mt-2">
-                    <span className="sr-only"> Regular Price </span>
-
-                    <span className="tracking-wider text-gray-900">
-                      {" "}
-                      £24.00 GBP{" "}
-                    </span>
-                  </p>
-                </div> */}
               </a>
 
               <a
-    className="my-5 inline-block rounded bg-indigo-600 px-8 py-3 text-sm font-medium text-white transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500"
-    href="/download"
-  >
-    Check Catalog
-  </a>
+                className="my-5 inline-block rounded bg-indigo-600 px-8 py-3 text-sm font-medium text-white transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500"
+                href="/download"
+              >
+                Check Catalog
+              </a>
             </li>
-
-            {/* <li>
-        <a href="#" className="block overflow-hidden group">
-          <img
-            src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-            alt=""
-            className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
-          />
-
-          <div className="relative pt-3 bg-white">
-            <h3
-              className="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4"
-            >
-              Basic Tee
-            </h3>
-
-            <p className="mt-2">
-              <span className="sr-only"> Regular Price </span>
-
-              <span className="tracking-wider text-gray-900"> £24.00 GBP </span>
-            </p>
-          </div>
-        </a>
-      </li> */}
           </ul>
         </div>
       </section>
-      {/*
-  This component uses @tailwindcss/forms and @tailwindcss/typography
-
-  yarn add @tailwindcss/forms @tailwindcss/typography
-  npm install @tailwindcss/forms @tailwindcss/typography
-
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')]
-
-  @layer components {
-    .no-spinner {
-      -moz-appearance: textfield;
-    }
-
-    .no-spinner::-webkit-outer-spin-button,
-    .no-spinner::-webkit-inner-spin-button {
-      margin: 0;
-      -webkit-appearance: none;
-    }
-  }
-*/}
-
 
       <section>
         <div className="relative mx-auto max-w-screen-xl px-4 py-8">
@@ -414,67 +304,67 @@ const Merchandise = () => {
             <div className="grid grid-cols-2 gap-4 md:grid-cols-1">
               <img
                 alt="Les Paul"
-                src="https://cdn.discordapp.com/attachments/1014443032797519914/1124018359856537621/Snapinsta.app_340161769_245411251269892_4144012272337964815_n_1024.jpg"
+                srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124018359856537621/Snapinsta.app_340161769_245411251269892_4144012272337964815_n_1024.jpg"
                 className="aspect-square w-full rounded-xl object-cover"
               />
 
               <div className="grid grid-cols-2 gap-4 lg:mt-4">
                 <img
                   alt="1"
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124018326700564480/Snapinsta.app_339716358_882571886176223_4265324868679345371_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124018326700564480/Snapinsta.app_339716358_882571886176223_4265324868679345371_n_1024.jpg"
                   className="aspect-square w-full rounded-xl object-cover"
                 />
 
                 <img
                   alt="2"
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124018326406959225/Snapinsta.app_339965353_610524907294750_1075715689311415708_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124018326406959225/Snapinsta.app_339965353_610524907294750_1075715689311415708_n_1024.jpg"
                   className="aspect-square w-full rounded-xl object-cover"
                 />
 
                 <img
                   alt="3"
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124018329061957682/Snapinsta.app_339999901_1182574702402290_8050494206062948362_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124018329061957682/Snapinsta.app_339999901_1182574702402290_8050494206062948362_n_1024.jpg"
                   className="aspect-square w-full rounded-xl object-cover"
                 />
                 <img
                   alt="4"
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124018328571219968/Snapinsta.app_339712015_1604235683423888_8598257803674792375_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124018328571219968/Snapinsta.app_339712015_1604235683423888_8598257803674792375_n_1024.jpg"
                   className="aspect-square w-full rounded-xl object-cover"
                 />
 
                 <img
                   alt="5"
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124018328202125312/Snapinsta.app_340170066_1370101693786278_960693130576035238_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124018328202125312/Snapinsta.app_340170066_1370101693786278_960693130576035238_n_1024.jpg"
                   className="aspect-square w-full rounded-xl object-cover"
                 />
 
                 <img
                   alt="6"
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124018327858188328/Snapinsta.app_339795517_963906711289281_14087211912252100_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124018327858188328/Snapinsta.app_339795517_963906711289281_14087211912252100_n_1024.jpg"
                   className="aspect-square w-full rounded-xl object-cover"
                 />
 
                 <img
                   alt="7"
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124018327585562764/Snapinsta.app_339984319_733548421485399_5802975702071825365_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124018327585562764/Snapinsta.app_339984319_733548421485399_5802975702071825365_n_1024.jpg"
                   className="aspect-square w-full rounded-xl object-cover"
                 />
 
                 <img
                   alt="8"
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124018327195488327/Snapinsta.app_339802175_954462845916893_4879153512873879182_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124018327195488327/Snapinsta.app_339802175_954462845916893_4879153512873879182_n_1024.jpg"
                   className="aspect-square w-full rounded-xl object-cover"
                 />
 
                 <img
                   alt="9"
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124018326943838279/Snapinsta.app_340032579_939251187101575_7809593834594327797_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124018326943838279/Snapinsta.app_340032579_939251187101575_7809593834594327797_n_1024.jpg"
                   className="aspect-square w-full rounded-xl object-cover"
                 />
 
                 <img
                   alt="10"
-                  src="https://cdn.discordapp.com/attachments/1014443032797519914/1124018361681063956/Snapinsta.app_339819310_247680927630417_3236153786451158324_n_1024.jpg"
+                  srcSet="https://cdn.discordapp.com/attachments/1014443032797519914/1124018361681063956/Snapinsta.app_339819310_247680927630417_3236153786451158324_n_1024.jpg"
                   className="aspect-square w-full rounded-xl object-cover"
                 />
               </div>
@@ -566,6 +456,7 @@ const Merchandise = () => {
                   <div className="flex flex-wrap gap-1">
                     <label htmlFor="color_tt" className="cursor-pointer">
                       <input
+                        readOnly
                         type="radio"
                         name="color"
                         id="color_tt"
@@ -579,6 +470,7 @@ const Merchandise = () => {
 
                     <label htmlFor="color_fr" className="cursor-pointer">
                       <input
+                        readOnly
                         type="radio"
                         name="color"
                         id="color_fr"
@@ -592,6 +484,7 @@ const Merchandise = () => {
 
                     <label htmlFor="color_cb" className="cursor-pointer">
                       <input
+                        readOnly
                         type="radio"
                         name="color"
                         id="color_cb"
@@ -605,6 +498,7 @@ const Merchandise = () => {
 
                     <label htmlFor="color_cb" className="cursor-pointer">
                       <input
+                        readOnly
                         type="radio"
                         name="color"
                         id="color_cb"
@@ -618,6 +512,7 @@ const Merchandise = () => {
 
                     <label htmlFor="color_cb" className="cursor-pointer">
                       <input
+                        readOnly
                         type="radio"
                         name="color"
                         id="color_cb"
@@ -631,6 +526,7 @@ const Merchandise = () => {
 
                     <label htmlFor="color_cb" className="cursor-pointer">
                       <input
+                        readOnly
                         type="radio"
                         name="color"
                         id="color_cb"
@@ -644,6 +540,7 @@ const Merchandise = () => {
 
                     <label htmlFor="color_cb" className="cursor-pointer">
                       <input
+                        readOnly
                         type="radio"
                         name="color"
                         id="color_cb"
@@ -657,6 +554,7 @@ const Merchandise = () => {
 
                     <label htmlFor="color_cb" className="cursor-pointer">
                       <input
+                        readOnly
                         type="radio"
                         name="color"
                         id="color_cb"
@@ -670,6 +568,7 @@ const Merchandise = () => {
 
                     <label htmlFor="color_cb" className="cursor-pointer">
                       <input
+                        readOnly
                         type="radio"
                         name="color"
                         id="color_cb"
@@ -683,6 +582,7 @@ const Merchandise = () => {
 
                     <label htmlFor="color_cb" className="cursor-pointer">
                       <input
+                        readOnly
                         type="radio"
                         name="color"
                         id="color_cb"
@@ -702,6 +602,7 @@ const Merchandise = () => {
             <div className="flex flex-wrap gap-1">
               <label htmlFor="size_xs" className="cursor-pointer">
                 <input
+                  readOnly
                   type="radio"
                   name="size"
                   id="size_xs"
@@ -717,6 +618,7 @@ const Merchandise = () => {
 
               <label htmlFor="size_s" className="cursor-pointer">
                 <input
+                  readOnly
                   type="radio"
                   name="size"
                   id="size_s"
@@ -732,6 +634,7 @@ const Merchandise = () => {
 
               <label htmlFor="size_m" className="cursor-pointer">
                 <input
+                  readOnly
                   type="radio"
                   name="size"
                   id="size_m"
@@ -747,6 +650,7 @@ const Merchandise = () => {
 
               <label htmlFor="size_l" className="cursor-pointer">
                 <input
+                  readOnly
                   type="radio"
                   name="size"
                   id="size_l"
@@ -762,6 +666,7 @@ const Merchandise = () => {
 
               <label htmlFor="size_xl" className="cursor-pointer">
                 <input
+                  readOnly
                   type="radio"
                   name="size"
                   id="size_xl"
@@ -784,6 +689,7 @@ const Merchandise = () => {
                     </label>
 
                     <input
+                      readOnly
                       type="number"
                       id="quantity"
                       min="1"

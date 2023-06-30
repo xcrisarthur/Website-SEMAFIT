@@ -17,7 +17,8 @@ const AspirForm = () => {
               </p>
 
               <div className="mt-10 text-center">
-                <a href="" className="text-4xl font-bold text-green-600">
+                {/* eslint-disable jsx-a11y/anchor-is-valid */}
+                <a href="#" className="text-4xl font-bold text-green-600">
                 No Limits, <span className="text-orange-600"> No Boundaries </span>
                 </a>
               </div>
