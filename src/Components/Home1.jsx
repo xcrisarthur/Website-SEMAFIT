@@ -1,8 +1,6 @@
-// import { useNavigate } from "react-router-dom";
 import "../App.css";
 
 const Home1 = () => {
-  // const navigate = useNavigate();
   return (
     <>
       <div className="max-w-xl mx-auto text-center mt-5 mb-5 text-black">
