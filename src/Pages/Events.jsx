@@ -1,5 +1,6 @@
 import Footer from "../Components/Footer";
 import NavigationBar from "../Components/NavigationBar";
+import React from "react";
 
 const Events = () => {
   return (
